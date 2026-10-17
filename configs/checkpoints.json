@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "artifacts_bundled": false,
+  "entries": [
+    {
+      "id": "breaking_adapter",
+      "status": "required_input",
+      "required_files": [
+        "residual_adapter.pt",
+        "adapter_metadata.json",
+        "vocab.json",
+        "results.json"
+      ],
+      "required_metadata": [
+        "carrier",
+        "input_dim",
+        "hidden_dim",
+        "output_dim",
+        "delta_scale",
+        "vocab_size",
+        "feature_type",
+        "feature_normalization",
+        "action_space",
+        "action_layout",
+        "action_normalization",
+        "objective_config",
+        "seed"
+      ],
+      "download_url": null,
+      "training_inputs": [
+        "training_records_and_splits",
+        "carrier_checkpoint",
+        "configuration"
+      ]
+    }
+  ],
+  "evaluated_artifacts": {
+    "status": "required_input",
+    "required_inputs": [
+      "exact evaluated adapter weights and metadata",
+      "evaluated instruction-margin and semantic-margin comparator recipes/checkpoints",
+      "fixed carrier feature layers and normalization identifiers"
+    ]
+  },
+  "released_artifacts": [
+    {
+      "id": "openvla_libero10_residual_adapter",
+      "status": "available",
+      "repository": "Shuaijun/BAS-VLA",
+      "download_url": "https://huggingface.co/Shuaijun/BAS-VLA",
+      "setting": "OpenVLA / LIBERO-10 offline action calibration",
+      "carrier": "openvla/openvla-7b",
+      "action_space": "openvla_libero10_unnormalized_sign_gripper_offline",
+      "files": {
+        "weights": "adapter/residual_adapter.pt",
+        "metadata": "adapter/adapter_metadata.json",
+        "vocabulary": "adapter/vocab.json",
+        "records": "data/triplets.json",
+        "data_manifest": "data/manifest.json",
+        "example": "example.py"
+      },
+      "loading": "Use example.py or ResidualAdapter with the action and feature conventions in adapter/adapter_metadata.json."
+    }
+  ]
+}

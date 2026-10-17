@@ -1,0 +1,95 @@
+{
+  "description": "Curated preserving paraphrase, format, and redundant-wording variants.",
+  "pairs": [
+    {
+      "pair_id": "libero10_00",
+      "suite": "libero_10",
+      "task_id": 0,
+      "clean_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+      "paraphrase_instruction": "place the alphabet soup and the tomato sauce into the basket",
+      "format_instruction": "Task:\n1. Put the alphabet soup in the basket.\n2. Put the tomato sauce in the basket.",
+      "redundant_instruction": "Please put both the alphabet soup and the tomato sauce in the basket. Repeat: both items should end up in the basket."
+    },
+    {
+      "pair_id": "libero10_01",
+      "suite": "libero_10",
+      "task_id": 1,
+      "clean_instruction": "put both the cream cheese box and the butter in the basket",
+      "paraphrase_instruction": "place the cream cheese box and the butter into the basket",
+      "format_instruction": "Instruction:\n1. Put the cream cheese box in the basket.\n2. Put the butter in the basket.",
+      "redundant_instruction": "Please put both the cream cheese box and the butter in the basket. Repeat: both objects belong in the basket."
+    },
+    {
+      "pair_id": "libero10_02",
+      "suite": "libero_10",
+      "task_id": 2,
+      "clean_instruction": "turn on the stove and put the moka pot on it",
+      "paraphrase_instruction": "switch on the stove and place the moka pot on the stove",
+      "format_instruction": "Task:\n1. Turn on the stove.\n2. Put the moka pot on the stove.",
+      "redundant_instruction": "Please turn on the stove and put the moka pot on it. Repeat: the moka pot should end up on the turned-on stove."
+    },
+    {
+      "pair_id": "libero10_03",
+      "suite": "libero_10",
+      "task_id": 3,
+      "clean_instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "paraphrase_instruction": "place the black bowl into the bottom drawer of the cabinet, then close the drawer",
+      "format_instruction": "Instruction:\n1. Put the black bowl in the bottom drawer of the cabinet.\n2. Close the drawer.",
+      "redundant_instruction": "Please put the black bowl in the bottom drawer of the cabinet and close it. Repeat: the bowl belongs in the bottom drawer, and the drawer should finish closed."
+    },
+    {
+      "pair_id": "libero10_04",
+      "suite": "libero_10",
+      "task_id": 4,
+      "clean_instruction": "put the white mug on the left plate and put the yellow and white mug on the right plate",
+      "paraphrase_instruction": "place the white mug onto the left plate, and place the yellow and white mug onto the right plate",
+      "format_instruction": "Task:\n1. Put the white mug on the left plate.\n2. Put the yellow and white mug on the right plate.",
+      "redundant_instruction": "Please put the white mug on the left plate and the yellow and white mug on the right plate. Repeat: white mug -> left plate; yellow and white mug -> right plate."
+    },
+    {
+      "pair_id": "libero10_05",
+      "suite": "libero_10",
+      "task_id": 5,
+      "clean_instruction": "pick up the book and place it in the back compartment of the caddy",
+      "paraphrase_instruction": "pick up the book and put it into the back compartment of the caddy",
+      "format_instruction": "Instruction:\n1. Pick up the book.\n2. Place it in the back compartment of the caddy.",
+      "redundant_instruction": "Please pick up the book and place it in the back compartment of the caddy. Repeat: the book should end in the back compartment."
+    },
+    {
+      "pair_id": "libero10_06",
+      "suite": "libero_10",
+      "task_id": 6,
+      "clean_instruction": "put the white mug on the plate and put the chocolate pudding to the right of the plate",
+      "paraphrase_instruction": "place the white mug on the plate and place the chocolate pudding to the right side of the plate",
+      "format_instruction": "Task:\n1. Put the white mug on the plate.\n2. Put the chocolate pudding to the right of the plate.",
+      "redundant_instruction": "Please put the white mug on the plate and put the chocolate pudding to the right of the plate. Repeat: mug on the plate; pudding on the plate's right side."
+    },
+    {
+      "pair_id": "libero10_07",
+      "suite": "libero_10",
+      "task_id": 7,
+      "clean_instruction": "put both the alphabet soup and the cream cheese box in the basket",
+      "paraphrase_instruction": "place the alphabet soup and the cream cheese box into the basket",
+      "format_instruction": "Instruction:\n1. Put the alphabet soup in the basket.\n2. Put the cream cheese box in the basket.",
+      "redundant_instruction": "Please put both the alphabet soup and the cream cheese box in the basket. Repeat: both items should end up in the basket."
+    },
+    {
+      "pair_id": "libero10_08",
+      "suite": "libero_10",
+      "task_id": 8,
+      "clean_instruction": "put both moka pots on the stove",
+      "paraphrase_instruction": "place both moka pots onto the stove",
+      "format_instruction": "Task:\n1. Put one moka pot on the stove.\n2. Put the other moka pot on the stove.",
+      "redundant_instruction": "Please put both moka pots on the stove. Repeat: both moka pots should end up on the stove."
+    },
+    {
+      "pair_id": "libero10_09",
+      "suite": "libero_10",
+      "task_id": 9,
+      "clean_instruction": "put the yellow and white mug in the microwave and close it",
+      "paraphrase_instruction": "place the yellow and white mug into the microwave, then close the microwave",
+      "format_instruction": "Instruction:\n1. Put the yellow and white mug in the microwave.\n2. Close the microwave.",
+      "redundant_instruction": "Please put the yellow and white mug in the microwave and close it. Repeat: the mug should end up inside the microwave, and the door should finish closed."
+    }
+  ]
+}

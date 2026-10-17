@@ -1,0 +1,35 @@
+{
+  "schema_version": "bas_vla_evaluation_v1",
+  "status": "requires_artifacts",
+  "protocol": "libero_pro",
+  "benchmark_revision": "REQUIRED benchmark version or release tag",
+  "selection_id": "REQUIRED exact evaluated selection identifier",
+  "environment_factory": "bas_vla.evaluation.openpi:create_env",
+  "carrier": {
+    "name": "REQUIRED carrier name",
+    "checkpoint_id": "REQUIRED checkpoint artifact identifier",
+    "config_name": "REQUIRED carrier config",
+    "normalization_key": "REQUIRED checkpoint normalization key"
+  },
+  "cases": [],
+  "required_case_fields": [
+    "case_id",
+    "category",
+    "instruction",
+    "bddl_file",
+    "init_states_file",
+    "normalization_key",
+    "trials",
+    "goal"
+  ],
+  "trial_schema": {
+    "seed": "integer",
+    "episode_idx": "integer"
+  },
+  "asset_paths": "Paths relative to --asset-root.",
+  "selection_note": "Configure the exact case selection and trial identities for the evaluation.",
+  "paper_budget": {
+    "cases": 10,
+    "rollouts_per_case_per_method": 120
+  }
+}

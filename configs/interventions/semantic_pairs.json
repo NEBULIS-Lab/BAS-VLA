@@ -1,0 +1,65 @@
+{
+  "description": "Concrete instruction triplets covering each semantic intervention family; native task success evaluates the original goal.",
+  "pairs": [
+    {
+      "pair_id": "break_spatial_relation",
+      "family": "spatial_relation",
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "clean_instruction": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "control_instruction": "pick up the black bowl that is between the plate and the ramekin and place it on the plate",
+      "break_instruction": "pick up the black bowl next to the plate and place it on the plate",
+      "changed_semantics": "spatial relation between -> next to"
+    },
+    {
+      "pair_id": "break_target_object",
+      "family": "target_object",
+      "suite": "libero_10",
+      "task_id": 0,
+      "clean_instruction": "put both the alphabet soup and the tomato sauce in the basket",
+      "control_instruction": "put the alphabet soup and the tomato sauce into the basket",
+      "break_instruction": "put both the alphabet soup and the butter in the basket",
+      "changed_semantics": "target object tomato sauce -> butter"
+    },
+    {
+      "pair_id": "break_container_destination",
+      "family": "container_destination",
+      "suite": "libero_10",
+      "task_id": 5,
+      "clean_instruction": "pick up the book and place it in the back compartment of the caddy",
+      "control_instruction": "pick up the book and put it into the back compartment of the caddy",
+      "break_instruction": "pick up the book and place it in the front compartment of the caddy",
+      "changed_semantics": "destination back compartment -> front compartment"
+    },
+    {
+      "pair_id": "break_order_constraint",
+      "family": "order_constraint",
+      "suite": "libero_10",
+      "task_id": 9,
+      "clean_instruction": "put the yellow and white mug in the microwave and close it",
+      "control_instruction": "place the yellow and white mug in the microwave and close it",
+      "break_instruction": "close the microwave and put the yellow and white mug in it",
+      "changed_semantics": "execution order swapped"
+    },
+    {
+      "pair_id": "break_executability_condition",
+      "family": "executability_condition",
+      "suite": "libero_10",
+      "task_id": 2,
+      "clean_instruction": "turn on the stove and put the moka pot on it",
+      "control_instruction": "switch on the stove and put the moka pot on it",
+      "break_instruction": "turn off the stove and put the moka pot on it",
+      "changed_semantics": "turn on -> turn off"
+    },
+    {
+      "pair_id": "break_executability_leave_drawer_open",
+      "family": "executability_condition",
+      "suite": "libero_10",
+      "task_id": 3,
+      "clean_instruction": "put the black bowl in the bottom drawer of the cabinet and close it",
+      "control_instruction": "place the black bowl in the bottom drawer of the cabinet and close it",
+      "break_instruction": "put the black bowl in the bottom drawer of the cabinet and leave it open",
+      "changed_semantics": "close it -> leave it open"
+    }
+  ]
+}

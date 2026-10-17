@@ -1,0 +1,40 @@
+{
+  "assets": [
+    {
+      "name": "pantry_box_left",
+      "source_hdf5": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_demo.hdf5",
+      "demo_key": "demo_0",
+      "frame_idx": 80,
+      "crop_box_xyxy": [
+        0,
+        0,
+        26,
+        46
+      ]
+    },
+    {
+      "name": "carton_mid",
+      "source_hdf5": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_demo.hdf5",
+      "demo_key": "demo_0",
+      "frame_idx": 80,
+      "crop_box_xyxy": [
+        34,
+        0,
+        62,
+        46
+      ]
+    },
+    {
+      "name": "can_front",
+      "source_hdf5": "libero_10/LIVING_ROOM_SCENE2_put_both_the_cream_cheese_box_and_the_butter_in_the_basket_demo.hdf5",
+      "demo_key": "demo_0",
+      "frame_idx": 80,
+      "crop_box_xyxy": [
+        67,
+        20,
+        96,
+        58
+      ]
+    }
+  ]
+}

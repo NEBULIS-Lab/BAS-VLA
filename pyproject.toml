@@ -1,0 +1,18 @@
+[project]
+name = "bas-vla"
+version = "0.1.0"
+description = "Open-source codebase for BAS-VLA."
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+assets = ["h5py>=3.8"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["bas_vla*"]
+
+[tool.setuptools.package-data]
+"bas_vla.records" = ["schema.json"]
